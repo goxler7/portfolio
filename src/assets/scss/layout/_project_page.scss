@@ -1,0 +1,22 @@
+.frame_block {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  margin: 0 auto;
+  background: rgba($bgColor, 0.85);
+
+  &--item {
+    background: #fff;
+    width: 100%;
+    height: 100vh;
+    
+    &-mobile {
+      .theyalow & {
+        width: 657px;
+      }
+      .repair_design & {
+        width: 392px;
+      }
+    }
+  }
+}

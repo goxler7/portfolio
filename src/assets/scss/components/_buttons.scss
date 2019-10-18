@@ -1,0 +1,62 @@
+.round_btn {
+  width: 35px;
+  height: 35px;
+  background: $primaryColor;
+  border-radius: 50%;
+  color: $lightColor;
+  cursor: pointer;
+  position: absolute;
+  top: calc(50% - 17px);
+
+  &:hover {
+    background: darken($primaryColor, 20%);
+  }
+
+  &-right {
+    transform: rotate(180deg);
+    right: 0;
+  }
+
+  &-left {
+    left: 0;
+  }
+}
+
+.buttons_block {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 5%;
+  right: 15%;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: $lightColor;
+  text-transform: uppercase;
+  min-width: 200px;
+  height: 51px;
+  border-radius: 2px;
+  background: $primaryColor;
+  box-shadow: 0px 0px 15px rgba($primaryColor, 0.5);
+  cursor: pointer;
+
+  &:hover {
+    background: darken($primaryColor, 20%);
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+#viewChangeBtn {
+  @media screen and (max-width: 640px) {
+    visibility: hidden;
+  }
+}
+

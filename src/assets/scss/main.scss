@@ -1,0 +1,40 @@
+@import "./base/reset";
+@import "./base/typography";
+@import "./utils/mixins";
+@import "./utils/vars";
+@import "./components/buttons";
+@import "./components/links";
+@import "./components/inputs";
+@import "./layout/portfolio";
+@import "./layout/project_page";
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font: 400 1.6rem $mainFont;
+  color: $darkColor;
+}
+
+h1, h2 , h3 {
+  font-family: $titleFont;
+}
+
+h1 {
+  font-size: 2.3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.7rem;
+}
+
+.wrapper {
+  max-width: $smTabletWidth;
+  margin: 0 auto;
+  padding: 0 20px;
+}

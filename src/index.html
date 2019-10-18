@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+  <title>My portfolio</title>
+</head>
+<body>
+
+  <main class="main">
+  
+    <section class="main_info">
+      <div class="wrapper">
+        <img src="./assets/images/img.png" alt="avatar" class="main_info--photo">
+        <div class="main_info--info_block">
+          <h1 class="title">Andrey Golovin</h1>
+          <p class="main_info--location">Seversk</p>
+          <div class="social_block">
+            <a href="https://github.com/goxler7" target="_blank" class="social_block--link"><i class="fab fa-github"></i></a>
+            <a href="mailto:goxler.7@gmail.com" class="social_block--link"><i class="fas fa-at"></i></a>
+            <a href="https://vk.com/goxler7" target="_blank" class="social_block--link"><i class="fab fa-vk"></i></a>
+            <a href="https://www.facebook.com/goxler7" target="_blank" class="social_block--link"><i class="fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="edu">
+      <div class="wrapper">
+        <div class="edu--header">
+          <h2 class="title">Education</h2>
+          <i class="fas fa-angle-down"></i>
+        </div>
+        <ul class="edu--list">
+          <li class="edu--item">
+            <p class="edu--place">School</p>
+            <p class="edu--years">2000 - 2011</p>
+          </li>
+          <li class="edu--item">
+            <p class="edu--place">Seversk Technological Institute</p>
+            <p class="edu--years">2013 - 2019</p>
+          </li>
+          <li class="edu--item">
+            <p class="edu--place">RSSchool Courses</p>
+            <p class="edu--years">2019</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects">
+      <div class="wrapper">
+        <h2 class="title">Projects</h2>
+        <div class="projects--carousel">
+          <div class="projects--slide_container">
+            <div class="projects--slide projects--slide-active">
+              <a class="projects--link" href="/theyalow.html">
+                <img src="./assets/images/theyalow.png" alt="theyalow" class="projects--image">
+              </a>
+              <div class="projects--description">
+                <h3 class="projects--project_name">theyalow</h3>
+                <ul class="projects--specs_list">
+                  <li class="projects--specs_item">Two resolutions (1440px and 640px)</li>
+                  <li class="projects--specs_item">Perfect pixel</li>
+                  <li class="projects--specs_item">Photoshop</li>
+                </ul>
+              </div>
+            </div>
+            <div class="projects--slide">
+              <a class="projects--link" href="/repair-design.html">
+                <img src="./assets/images/repair-design.png" alt="repair-design-project" class="projects--image">
+              </a>
+              <div class="projects--description">
+                <h3 class="projects--project_name">Repair design project</h3>
+                <ul class="projects--specs_list">
+                  <li class="projects--specs_item">Responsive design</li>
+                  <li class="projects--specs_item">Work with figma</li>
+                  <li class="projects--specs_item">Preprocessor Sass</li>
+                  <li class="projects--specs_item">Webpack</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <button class="round_btn round_btn-left">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button class="round_btn round_btn-right">
+            <i class="fas fa-arrow-left"></i>
+          </button>
+          <button class="descrp_btn btn">Show description</button>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
